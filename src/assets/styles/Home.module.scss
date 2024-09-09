@@ -1,0 +1,65 @@
+.home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    .icon_vscode {
+      fill: var(--explorer-bg);
+      width: 25vw;
+      min-width: 200px;
+    }
+    header {
+      h1 {
+        display: flex;
+        margin: 0 auto; 
+        white-space: nowrap;
+        color: inherit;
+
+        &::after {
+          display: block;
+          content: "";
+          width: 10px;
+          height:48px;
+          border-right: .15em solid var(--accent-color);     
+          animation: typing .75s step-end infinite;
+        }
+      }
+      
+
+      p {
+        text-align: center;
+      }
+    }
+    
+  }
+}
+
+@keyframes typing {
+  from, to { border-color: transparent }
+  50% { border-color: var(--accent-color); }
+}
+
+@media screen and (max-width: 800px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 0.8rem;
+  }
+  .buttons button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title h1 {
+    font-size: 1rem;
+  }
+}
