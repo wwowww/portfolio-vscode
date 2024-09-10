@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@use "/src/assets/styles/font.scss" as *;
 
 .layout {
   display: flex;
   width: 100%;
   height: calc(100vh - 30px - 25px);
   background-color: var(--main-bg);
+  header h1 {
+    span {
+      font-family: 'JetBrains Mono', sans-serif;
+      
+    }
+  }
 }
