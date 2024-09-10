@@ -22,22 +22,34 @@
         white-space: nowrap;
         color: inherit;
 
-        &::after {
-          display: block;
-          content: "";
-          width: 10px;
-          height:48px;
-          border-right: .15em solid var(--accent-color);     
-          animation: typing .75s step-end infinite;
+        span {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          &::after {
+            display: flex;
+            content: "";
+            width: 10px;
+            height:48px;
+            border-right: .15em solid var(--accent-color);     
+            animation: typing .75s step-end infinite;
+          }
         }
       }
-      
-
+    
       p {
+        font-size: 1.5rem;
+        color: inherit;
         text-align: center;
+        margin: 1em 0;
       }
     }
-    
+  }
+
+  .buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
   }
 }
 
@@ -47,19 +59,16 @@
 }
 
 @media screen and (max-width: 800px) {
-  .title h1 {
-    font-size: 1.5rem;
+  .container .title h1 {
+    font-size: 1.5rem !important;
   }
-  .heading {
-    font-size: 0.8rem;
-  }
-  .buttons button {
-    font-size: 0.8rem;
+  .container p {
+    font-size: 0.8rem !important;
   }
 }
 
 @media screen and (max-width: 800px) {
   .title h1 {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 }

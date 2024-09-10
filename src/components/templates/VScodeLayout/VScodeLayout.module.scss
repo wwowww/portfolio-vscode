@@ -5,10 +5,45 @@
   width: 100%;
   height: calc(100vh - 30px - 25px);
   background-color: var(--main-bg);
-  header h1 {
-    span {
-      font-family: 'JetBrains Mono', sans-serif;
-      
+
+  .main {
+    width: calc(100% - 56px - 172px);
+  }
+
+  .contents {
+    overflow-y: auto;
+    height: calc(100% - 52px);
+    font-family: "JetBrains Mono",sans-serif;
+    color: var(--text-color);
+    padding: 2rem;
+
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--scrollbar-track-bg);
+      border-left: 1px solid #1e1f29;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-thumb-bg);
+      border-left: 1px solid #1e1f29;
+    }
+  }
+  
+  .code_examples {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: calc(100% - 56px);
+
+    .contents {
+      padding: 1rem;
+      overflow-y: auto;
     }
   }
 }

@@ -8,13 +8,17 @@ const VScodeLayout = () => {
   const this_pathName = location.pathname;
 
   return (
-    <>
-      <div className={`${style.layout} ${this_pathName === '/code-examples' ? style.code_examples : null}`}>
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-        </Routes>
+    <div className={style.layout}>
+      <div className={style.main}>
+
+      
+        <div className={`${style.contents} ${this_pathName === '/code-examples' ? style.code_examples : null}`}>
+          <Routes>
+            <Route path='/' element={<Home />}></Route>
+          </Routes>
+        </div>
       </div>
-    </>
+    </div>
   )
 }
 
