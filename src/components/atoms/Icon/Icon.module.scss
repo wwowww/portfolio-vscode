@@ -1,0 +1,28 @@
+.wrap {
+  width: 100%;
+  display: block;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  
+  img {
+    width: 42px;
+    height: 42px;
+    padding: 8px;
+    filter: invert(48%) sepia(20%) saturate(233%) hue-rotate(171deg) brightness(87%) contrast(90%);
+
+    &.white {
+      filter: invert(100%) sepia(18%) saturate(6238%) hue-rotate(179deg) brightness(108%) contrast(82%);
+
+    }
+
+    // &.gray {
+    //   filter: invert(44%) sepia(8%) saturate(493%) hue-rotate(171deg) brightness(99%) contrast(95%);
+    // }
+  }
+
+  &:hover {
+    background-color: var(--sidebar-hover-bg); 
+
+  }
+}

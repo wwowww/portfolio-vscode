@@ -1,0 +1,8 @@
+.container {
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid #191d20;
+}

@@ -1,8 +1,9 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from "@/pages/Home";
-import style from "./VScodeLayout.module.scss";
 import Tabs from '@/components/molecules/Tabs/Tabs';
 import TopMenuBar from '@/components/molecules/TopMenuBar/TopMenuBar';
+import SideBar from '@/components/molecules/SideBar/SideBar';
+import style from "./VScodeLayout.module.scss";
 
 const VScodeLayout = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ const VScodeLayout = () => {
     <>
       <TopMenuBar />
       <div className={style.layout}>
+      <SideBar />  
       <div className={style.main}>
         <Tabs />
         <div className={`${style.contents} ${this_pathName === '/code-examples' ? style.code_examples : null}`}>
