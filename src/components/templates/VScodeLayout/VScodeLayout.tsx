@@ -2,13 +2,16 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Home from "@/pages/Home";
 import style from "./VScodeLayout.module.scss";
 import Tabs from '@/components/molecules/Tabs/Tabs';
+import TopMenuBar from '@/components/molecules/TopMenuBar/TopMenuBar';
 
 const VScodeLayout = () => {
   const location = useLocation();
   const this_pathName = location.pathname;
 
   return (
-    <div className={style.layout}>
+    <>
+      <TopMenuBar />
+      <div className={style.layout}>
       <div className={style.main}>
         <Tabs />
         <div className={`${style.contents} ${this_pathName === '/code-examples' ? style.code_examples : null}`}>
@@ -18,6 +21,8 @@ const VScodeLayout = () => {
         </div>
       </div>
     </div>
+    </>
+    
   )
 }
 
