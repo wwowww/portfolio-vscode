@@ -13,7 +13,7 @@ const Tab = ({path, title, icon}: TabProps) => {
   const pathname = location.pathname;
   return (
     <li 
-      className={`${style.tab} ${pathname === path && style.active }`} 
+      className={`${style.tab} ${pathname === path ? style.active : ""}`} 
       onClick={() => {
         navigate(path);
       }}

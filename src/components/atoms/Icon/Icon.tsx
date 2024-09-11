@@ -13,7 +13,7 @@ const Icon = ({path, icon}: IconProps) => {
   
   return (
     <button onClick={() => navigate(path)} className={style.wrap}>
-      <img src={icon} alt="svg icon." className={pathname === path && `${style.white}`} />
+      <img src={icon} alt="svg icon." className={pathname === path ? `${style.white}` : ""} />
     </button>
   )
 }
