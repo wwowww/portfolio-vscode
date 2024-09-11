@@ -3,8 +3,9 @@ import Home from "@/pages/Home";
 import Tabs from '@/components/molecules/Tabs/Tabs';
 import TopMenuBar from '@/components/molecules/TopMenuBar/TopMenuBar';
 import SideBar from '@/components/molecules/SideBar/SideBar';
-import style from "./VScodeLayout.module.scss";
 import ExplorerBar from '@/components/molecules/ExplorerBar/ExplorerBar';
+import Footer from '@/components/molecules/Footer/Footer';
+import style from "./VScodeLayout.module.scss";
 
 const VScodeLayout = () => {
   const location = useLocation();
@@ -25,6 +26,7 @@ const VScodeLayout = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
     
   )
