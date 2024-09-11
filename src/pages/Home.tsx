@@ -11,16 +11,16 @@ const Home = () => {
     <div className={style.home}>
       <div className={style.container}>
         <VscodeIcon className={style.icon_vscode} />
-        <header>
+        <div className={style.titleWrap}>
           <div className={style.title}>
-            <Typography Tag="h1" className="title-40-140-600">
+            <Typography Tag="h2" className="title-40-140-600">
               <TypingText text="Hello Eunjee World!" frame={100} />
             </Typography>
           </div>
           <Typography Tag="p" className="body-24-140-600">
             I'm Frontend Developer
           </Typography>
-        </header>
+        </div>
         <div className={style.buttonWrapper}>
           <HomeButton
             onClick={() => {
