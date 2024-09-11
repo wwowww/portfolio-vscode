@@ -1,0 +1,83 @@
+$transition: 0.1s ease-in-out;
+$max-height-transition: max-height 0.3s ease-in-out;
+
+.wrap {
+  width: 172px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #e1e4e8;
+  background-color: var(--explorer-bg);
+  border-right: 1px solid var(--explorer-border);
+
+  .title {
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .toggleButton {
+    position: relative;
+    padding: 4px 14px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+
+    &.active::before {
+      transform: translateY(-62%) rotate(225deg); 
+      transition: $transition;
+    }
+
+    &::before {
+      opacity: .7;
+      display: block;
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 50%;
+      width: 6px;
+      height: 6px;
+      border-top: 1px solid #fff;
+      border-left: 1px solid #fff;
+      transform: translateY(-50%) rotate(135deg);
+      transition: $transition;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: 0;
+    overflow: hidden;
+    transition: $max-height-transition;
+
+    &.accordion {
+      max-height: 100%;
+      transition: $max-height-transition;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 2px 8px;
+      font-size: 14px;
+      font-weight: 300;
+      background-color: transparent;
+      border: none !important;
+
+      &:hover {
+        background-color: var(--explorer-hover-bg);
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    display: none;
+  }
+}

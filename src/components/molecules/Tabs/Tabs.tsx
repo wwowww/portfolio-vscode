@@ -10,7 +10,7 @@ const Tabs = () => {
   return (
     <ul className={style.tabs} style={pathname === '/code-examples' ? {display: 'none'} : {}}>
       {TAB_LIST.map((item) => (
-        <Tab icon={item.icon} path={"/" + item.path} title={item.title} key={item.id + "key"} />
+        <Tab icon={item.icon} path={item.path} title={item.title} key={item.id + "key"} />
       ))}
     </ul>
   )

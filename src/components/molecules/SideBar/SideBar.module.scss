@@ -5,4 +5,9 @@
   justify-content: space-between;
   background-color: var(--sidebar-bg);
   border-right: 1px solid #191d20;
+
+  ul {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 }

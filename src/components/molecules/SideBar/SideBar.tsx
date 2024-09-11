@@ -3,7 +3,6 @@ import Icon from "@/components/atoms/Icon/Icon";
 import style from "./SideBar.module.scss";
 
 const SideBar = () => {
-
   return (
     <aside className={style.container}>
       <ul>
