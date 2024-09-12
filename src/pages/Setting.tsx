@@ -1,12 +1,11 @@
-import Typography from '@/components/atoms/Typography/Typography';
 import { THEME_LIST } from "@/mocks/themeList";
 import style from "@/assets/styles/Setting.module.scss";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import SectionTitle from '@/components/molecules/SectionTitle/SectionTitle';
 
 const Setting = () => {
   const localTheme = localStorage.getItem("theme");
   const [themeName, setThemeName] = useState<string>(localTheme.toString());
-  const [cssEffect, setCssEffect] = useState<boolean>(false);
   
   const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -16,10 +15,11 @@ const Setting = () => {
 
   return (
     <>
-      <Typography Tag="h2" className='body-24-140-600'> 
-        <img src="/src/assets/icons/SettingIcon.svg" alt="" className={style.cogwheel} />
-        Setting Color Themes
-      </Typography>
+      <SectionTitle
+        imageSrc="/src/assets/icons/SettingIcon.svg"
+        title="Setting Color Themes"
+        className="cogwheel"
+      />
       <ul className={style.listWrap}>
         {THEME_LIST.map((item) => (
           <li key={item.id + "key"} className={style.list}>
