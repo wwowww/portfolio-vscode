@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 const TypingText = ({text, frame}: any) => {
     const [title, setTitle] = useState('');
@@ -18,7 +18,7 @@ const TypingText = ({text, frame}: any) => {
     }, frame);
 
     return () => clearInterval(typingInterval);
-  });
+  }, [title]);
 
   return <span>{title}</span>;
 };
