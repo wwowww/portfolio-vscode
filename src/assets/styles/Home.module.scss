@@ -25,7 +25,9 @@
         span {
           display: flex;
           justify-content: center;
+          align-items: center;
           width: 100%;
+          
           &::after {
             display: flex;
             content: "";
