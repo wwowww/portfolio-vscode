@@ -1,0 +1,53 @@
+.wrap {
+  &::before {
+    margin-right: 1rem;
+    min-width: 26px;
+    color: grey;
+    content: counter(line);
+    counter-increment: line;
+  }
+
+  .normal {
+    color: #fff;
+  }
+
+  .socials {
+    color: var(--tagname-text-color);
+  }
+
+  .indent {
+    &-2 {
+      margin-left: 36px;
+    }
+  }
+
+  span {
+    em, a {
+      font-style: normal;
+      color: var(--attributevalue-text-color);
+  
+      &::before,
+      &::after {
+        display: inline-block;
+        color: #fff;
+      }
+  
+      &::before {
+        content: ":";
+        margin-right: 6px;
+      }
+  
+      &::after {
+        content: ";";
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    &::before {
+      min-width: 16px;
+    }
+  }
+}
