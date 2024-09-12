@@ -7,7 +7,7 @@ import style from "./TopMenuBar.module.scss";
 const TopMenuBar = () => {
   return (
     <header className={style.container}>
-      <div className={style.rightMenu}>
+      <div className={style.menu}>
         <VscodeIcon className={style.vscodeIcon} fill={'#2196f3'} />
         <ul className={style.listWrap}>
           {TOP_MENU_LIST.map((item) => (
