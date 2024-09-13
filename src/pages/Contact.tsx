@@ -16,7 +16,7 @@ const Contact = () => {
       />
       <div className={style.code}>
         <CodeBlock>
-          <CodeLine bracket="open" tag="socials" key="open" />
+          <CodeLine bracket="open" className="socials" key="open" />
           {CONTACT_INFO.map((item) => (
             <CodeLine indent={2} key={id + item.id}>
               {item.title}

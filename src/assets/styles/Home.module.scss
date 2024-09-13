@@ -18,7 +18,8 @@
     .titleWrap {
       .title {
         display: flex;
-        margin: 0 auto; 
+        margin: 0 auto;
+        min-height: 56px;
         white-space: nowrap;
         color: inherit;
 
@@ -61,8 +62,12 @@
 }
 
 @media screen and (max-width: 800px) {
-  .container .title h1 {
+  .container .title h2 {
     font-size: 1.5rem !important;
+
+    span::after {
+      height: 36px !important;
+    }
   }
   .container p {
     font-size: 0.8rem !important;
