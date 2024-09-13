@@ -1,0 +1,87 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--article-bg);
+  border-radius: 10px;
+  
+  .image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .content {
+    flex: 1 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+
+    a {
+      display: block;
+      text-align: center;
+      border: 2px solid;
+      width: 100%;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      margin-top: 16px;
+      margin-bottom: 6px;
+      border-radius: 20px;
+      transition: ease 0.2s;
+
+      &:hover {
+        transition: ease 0.2s;
+      }
+
+      &.notion {
+        border-color: #EC6A5E;
+        &:hover {
+          background-color: #EC6A5E;
+        }
+      }
+      &.github {
+        border-color:  #F4BE4F;
+        &:hover {
+          background-color: #F4BE4F;
+        }
+      }
+      &.demo {
+        border-color: #61C555;
+        &:hover {
+          background-color: #61C555;
+        }
+      }
+    }
+
+    .githubDemoTagWrap {
+      display: flex;
+      gap: 6px;
+    }
+
+    a + .githubDemoTagWrap {
+      a {
+        margin-top: 4px;
+      }
+    }
+  }
+
+  .tag {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    li {
+      display: inline-block;
+      padding: 4px 6px;
+      margin-top: 5px;
+      margin-right: 5px;
+      font-size: 12px;
+      background-color: var(--button-bg);
+      border-radius: 12px;
+      opacity: 0.8;
+    }
+  }
+}
+

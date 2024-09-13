@@ -36,6 +36,15 @@
       animation: shaking .75s ease infinite;
     }
   }
+
+  .code {
+    width: 30px;
+    transform: scale(1);
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 
 @keyframes shaking {
