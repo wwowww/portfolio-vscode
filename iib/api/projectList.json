@@ -1,0 +1,108 @@
+{
+  "product": "Eunjee Portfolio Project JSON",
+  "version": "1.0",
+  "releaseDate": "2024-09-13T00:00:00.000Z",
+  "demo": true,
+  "data": [
+    {
+      "id": 0,
+      "copy": "company",
+      "title": "회사명",
+      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
+      "image": "src/assets/images/wemade.png",
+      "notionLink": "",
+"githubLink": "",
+"demoLink": "",
+      "tag": [
+        "Pnpm",
+        "Turborepo",
+        "React",
+        "NextJs",
+        "Redux",
+        "Typescript",
+        "SCSS",
+        "moduleCSS",
+        "i18next"
+      ]
+    },
+    {
+      "id": 1,
+      "copy": "personal",
+      "title": "프로젝트명",
+      "description": "개인 또는 팀 프로젝트에 대한 설명입니다.",
+      "image": "src/assets/images/wemade.png",
+      "notionLink": "노션링크",
+      "githubLink": "깃헙링크",
+      "demoLink": "데모링크",
+      "tag": [
+        "Vite",
+        "React",
+        "Typescript",
+        "Zustand"
+      ]
+    },
+    {
+      "id": 2,
+      "copy": "company",
+      "title": "회사명",
+      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
+      "image": "src/assets/images/wemade.png",
+      "notionLink": "노션링크",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "Pnpm",
+        "Turborepo",
+        "React",
+        "NextJs",
+        "Redux",
+        "Typescript",
+        "SCSS",
+        "moduleCSS",
+        "i18next"
+      ]
+    },
+    {
+      "id": 4,
+      "copy": "company",
+      "title": "회사명",
+      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
+      "image": "src/assets/images/wemade.png",
+      "notionLink": "",
+      "githubLink": "깃헙링크",
+      "demoLink": "데모링크",
+      "tag": [
+        "Pnpm",
+        "Turborepo",
+        "React",
+        "NextJs",
+        "Redux",
+        "Typescript",
+        "SCSS",
+        "moduleCSS",
+        "i18next"
+      ]
+    },
+    {
+      "id": 5,
+      "copy": "company",
+      "title": "회사명",
+      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
+      "image": "src/assets/images/wemade.png",
+      "notionLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "Pnpm",
+        "Turborepo",
+        "React",
+        "NextJs",
+        "Redux",
+        "Typescript",
+        "SCSS",
+        "moduleCSS",
+        "i18next"
+      ]
+    }
+  ]
+}
