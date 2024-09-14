@@ -1,5 +1,5 @@
 import ProjectList from "@/components/molecules/projectList/projectList";
-import { useAPI } from "iib/api/react-query/project";
+import { useAPI } from "lib/api/react-query/project";
 import SectionTitle from "@/components/molecules/SectionTitle/SectionTitle";
 import Typography from "@/components/atoms/Typography/Typography";
 
