@@ -1,0 +1,24 @@
+.container {
+  h3 {
+    padding-top: 10px;
+    padding-bottom: 16px;
+  }
+}
+
+.listWrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5em;
+}
+
+@media screen and (max-width: 960px) {
+  .listWrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 720px) {
+  .listWrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
