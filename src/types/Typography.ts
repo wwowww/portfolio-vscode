@@ -5,4 +5,5 @@ export type TypographyCode =
 | "title-14-140-400"
 | "title-20-150-400"
 | "body-24-140-600"
-| "body-18-150-400";
+| "body-18-150-400"
+| "body-14-150-400";
