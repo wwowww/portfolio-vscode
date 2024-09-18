@@ -6,8 +6,16 @@ input {
   border-radius: 8px;
   
   &[type="submit"] {
+    cursor: pointer;
     margin: 0 auto;
     max-width: 200px;
     background-color: var(--accent-color);
+    color: #fff;
+    border: 0;
+    transition: 0.2s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 }
