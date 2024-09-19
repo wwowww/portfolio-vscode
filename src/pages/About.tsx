@@ -1,18 +1,18 @@
 import CodeBlock from "@/components/atoms/CodeStyle/CodeBlock/CodeBlock";
 import CodeLine from "@/components/atoms/CodeStyle/CodeLine/CodeLine";
-
-import style from "@/assets/styles/About.module.scss";
+import RunnerEunjee from "@/components/molecules/RunnerEunjee/RunnerEunjee";
 
 const About = () => {
   return (
     <>
+      <RunnerEunjee />
       <CodeBlock>
         <CodeLine htmlTag="html" attribute="lang" attributeContent="ko" />
-        <CodeLine htmlTag="head" indent={2} />
-          <CodeLine htmlTag="title" indent={4} />
-          <CodeLine indent={6}>안녕하세요. 프론트엔드 개발자 권은지입니다.</CodeLine>
-          <CodeLine htmlTag="title" indent={4} tagClose />
-        <CodeLine htmlTag="head" indent={2} tagClose />
+        {/* <CodeLine htmlTag="head" indent={2} /> */}
+          {/* <CodeLine htmlTag="title" indent={4} /> */}
+          {/* <CodeLine indent={6}>안녕하세요. 프론트엔드 개발자 권은지입니다.</CodeLine> */}
+          {/* <CodeLine htmlTag="title" indent={4} tagClose /> */}
+        {/* <CodeLine htmlTag="head" indent={2} tagClose /> */}
         <CodeLine htmlTag="body" indent={2} />
         <CodeLine htmlTag="header" indent={4} attribute="class" attributeContent="information"  />
 

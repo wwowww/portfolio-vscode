@@ -1,0 +1,32 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+  .link {
+    margin-top: 10px;
+    color: var(--accent-color);
+    font-size: 14px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .wrap {
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    > div {
+      &::after {
+        top: inherit;
+        bottom: -10px;
+        left: 50%;
+        transform: translateY(-50%) rotate(180deg);
+      }
+    }
+  }
+}
