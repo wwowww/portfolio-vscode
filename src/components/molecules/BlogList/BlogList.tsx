@@ -2,6 +2,7 @@ import { useBlogPost } from "lib/api/react-query/blog";
 import style from "./BlogList.module.scss";
 import { useCallback } from "react";
 import Typography from "@/components/atoms/Typography/Typography";
+import SkeletonLoader from "@/components/atoms/SkeletonLoader/SkeletonLoader";
 
 const blogList = () => {
   const { isLoading, error, data } = useBlogPost();
@@ -23,7 +24,9 @@ const blogList = () => {
 
   return (
     <ul className={style.listWrap}>
-      {isLoading && <>Loading ...</>}
+      {isLoading && (
+        <SkeletonLoader repeat={6} height={203} />
+      )}
       {error && <p>에러가 발생했습니다! 잠시후 다시 시도해주세요.</p>}
       {data && data.map((item) => (
         <li key={item.pubDate} className={style.list}>

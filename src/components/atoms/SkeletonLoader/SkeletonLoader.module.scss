@@ -1,0 +1,21 @@
+/* Define loader colors as variables */
+:root {
+  --loader-background-color: #EEEEEE;
+  --loader-highlight-color: #DEDEDE;
+}
+
+.wrap {
+  background: linear-gradient(90deg, var(--loader-background-color) 25%, var(--loader-highlight-color) 50%, var(--loader-background-color) 75%);
+  background-size: 200% 100%;
+  border-radius: 8px;
+  animation: loading 2s infinite ease-in-out;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
