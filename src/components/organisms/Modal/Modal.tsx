@@ -17,7 +17,7 @@ const Modal = ({ children, title, description, dim = true, closeButton = true, o
     <div className={`${style.wrap} ${dim ? style.dim : ""}`}>
       <div className={style.dim} onClick={onClick}></div>
       <div className={style.content}>
-        {closeButton && <Button onClick={onClick} className={style.closeButton}><img src="src/assets/icons/CloseIcon.svg" alt="닫기" /></Button>}
+        {closeButton && <Button onClick={() => onClick} className={style.closeButton}><img src="src/assets/icons/CloseIcon.svg" alt="닫기" /></Button>}
         {title && <Typography Tag="h4" className="body-18-150-400">{title}</Typography>}
         {description && <p className={style.description}>{description}</p>}
         {children}

@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     if (localStorage.getItem("theme")) {
       document.documentElement.setAttribute(
-        "data-theme", localStorage.getItem("theme")
+        "data-theme", localStorage.getItem("theme") as string
       );
     }
   }, []);

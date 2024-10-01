@@ -15,7 +15,7 @@ const ExplorerBar = () => {
       >
         EUNJEE-PORTFOLIO
       </ArrowToggleButton>
-      <ul className={toggle && style.accordion}>
+      <ul className={toggle ? style.accordion : ""}>
         {EXPLORER_BAR_MENU.map((item) => (
           <Tab icon={item.icon} path={item.path} title={item.title} key={item.id + "key"} />
         ))}

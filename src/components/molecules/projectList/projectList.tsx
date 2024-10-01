@@ -39,7 +39,7 @@ const ProjectList = ({data, copy}: Props) => {
   
 
   return (
-    separationList(copy)
+    separationList(copy as string)
   )
 }
 

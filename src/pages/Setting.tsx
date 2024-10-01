@@ -4,7 +4,7 @@ import { useState } from 'react';
 import SectionTitle from '@/components/molecules/SectionTitle/SectionTitle';
 
 const Setting = () => {
-  const localTheme = localStorage.getItem("theme");
+  const localTheme = localStorage.getItem("theme") as string;
   const [themeName, setThemeName] = useState<string>(localTheme.toString());
   
   const setTheme = (theme) => {
