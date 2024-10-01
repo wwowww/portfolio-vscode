@@ -11,7 +11,7 @@ import Contact from '@/pages/Contact';
 import Projects from '@/pages/Projects';
 import Blog from '@/pages/Blog';
 import Setting from '@/pages/Setting';
-import CodeExamples from '@/pages/code-examples';
+// import CodeExamples from '@/pages/code-examples';
 
 import style from "./VScodeLayout.module.scss";
 
@@ -34,7 +34,7 @@ const VScodeLayout = () => {
               <Route path='/contact' element={<Contact />}></Route>
               <Route path='/projects' element={<Projects />}></Route>
               <Route path='/blog' element={<Blog />}></Route>
-              <Route path='/code-example' element={<CodeExamples />}></Route>
+              {/* <Route path='/code-example' element={<CodeExamples />}></Route> */}
               <Route path='/setting' element={<Setting />}></Route>
             </Routes>
           </div>
