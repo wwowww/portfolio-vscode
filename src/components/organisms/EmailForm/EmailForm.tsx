@@ -16,7 +16,7 @@ const PUBLIC_KEY = `${import.meta.env.VITE_PUBLIC_PUBLIC_KEY}`;
 export const EmailForm = () => {
   const [success, setSuccess] = useState<boolean>(false);
   const [fail, setFail] = useState<boolean>(false);
-  const form = useRef();
+  const form = useRef(null);
   const {user, onChangeInput } = useInput();
   const { name, phone, email, message } = user;
   const { toggleModal } = useModal();
