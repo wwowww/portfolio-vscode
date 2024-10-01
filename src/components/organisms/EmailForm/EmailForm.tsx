@@ -41,7 +41,7 @@ export const EmailForm = () => {
   };
 
   return (
-    <>
+    <div>
       <form ref={form} onSubmit={sendEmail} className={style.form}>
         <div className={style.contentList}>
           <div className={style.inputListWrap}>
@@ -71,6 +71,6 @@ export const EmailForm = () => {
         description={`잠시 후 다시 시도해주세요. \n감사합니다.`}
         onClick={() => setFail(false)}
       />}
-    </>
+    </div>
   );
 };
