@@ -25,7 +25,7 @@ export const EmailForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, {
+      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current!, {
         publicKey: PUBLIC_KEY,
       })
       .then(
