@@ -1,8 +1,7 @@
 import axios from "axios";
-const jsonUrl = "../../lib/api/projectList.json";
 
 export const fetchProjectData = async () => {
-  const response = await axios.get(jsonUrl)
+  const response = await axios.get("https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/lib/api/projectList.json")
   return response.data.data
 }
 
