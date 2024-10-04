@@ -7,6 +7,8 @@ import { CONTACT_INFO } from "@/static/mocks/contactInfo";
 import Typography from "@/components/atoms/Typography/Typography";
 import { EmailForm }  from "@/components/organisms/EmailForm/EmailForm";
 import AccountIcon from "@/static/icons/AccountIcon.svg";
+import mailIcon from "@/static/icons/MailIcon.svg";
+
 const Contact = () => {
   const id = useId();
   return (
@@ -33,7 +35,7 @@ const Contact = () => {
       </div>
       <SectionTitle
         title="Send Email"
-        imageSrc="/src/static/icons/MailIcon.svg"
+        imageSrc={mailIcon}
         className="mail"
       />
       <Typography className="body-14-150-400" color="#A2A2A2">메일을 보내주시면 평일 기준 3일 이내로 답장 드리겠습니다!</Typography>
