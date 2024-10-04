@@ -1,5 +1,5 @@
 import ProjectList from "@/components/molecules/projectList/projectList";
-import { useAPI } from "lib/api/react-query/project";
+import { useProjectPost } from "lib/api/react-query/project";
 import SectionTitle from "@/components/molecules/SectionTitle/SectionTitle";
 import Typography from "@/components/atoms/Typography/Typography";
 import CodeIcon from "@/static/icons/CodeIcon.svg";
@@ -7,7 +7,7 @@ import CodeIcon from "@/static/icons/CodeIcon.svg";
 import style from "@/assets/styles/Projects.module.scss";
 
 const Projects = () => {
-  const {isLoading, error, data} = useAPI();
+  const {isLoading, error, data} = useProjectPost();
 
   return (
     <div className={style.container}>
@@ -16,14 +16,10 @@ const Projects = () => {
         imageSrc={CodeIcon}
         className="code"
       />
-      {error && <p>에러가 발생했습니다! 잠시후 다시 시도해주세요.</p>}
       <Typography Tag="h3" className="title-20-150-400">🌏 Project in Company</Typography>
       <ul className={style.listWrap}>
-        {isLoading && (
-          <li>
-            Loading ...
-          </li>
-        )}        
+        {isLoading && <li>Loading ...</li>}     
+        {error && <li><p>에러가 발생했습니다! 잠시후 다시 시도해주세요.</p></li>}   
         <ProjectList data={data} copy="company" />
       </ul>
       <br />

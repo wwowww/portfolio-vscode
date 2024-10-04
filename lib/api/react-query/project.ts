@@ -1,13 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchProjectData } from "../index";
 
-const useAPI = () => {
+const useProjectPost = () => {
   const { isLoading, error, data } = useQuery({
-    queryKey: ['json'],
+    queryKey: ['project'],
     queryFn: fetchProjectData
   })
   
   return { isLoading, error, data }
 }
 
-export { useAPI }
+export { useProjectPost }
