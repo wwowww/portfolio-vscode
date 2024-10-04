@@ -7,7 +7,7 @@ const Blog = () => {
     <>
      <SectionTitle
         title="Recent Posts"
-        imageSrc="/src/assets/icons/PencilIcon.svg"
+        imageSrc="/src/static/icons/PencilIcon.svg"
         className="blog"
       /> 
       <BlogList />

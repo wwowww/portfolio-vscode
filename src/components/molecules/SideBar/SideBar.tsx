@@ -1,4 +1,4 @@
-import { SIDE_BAR_MENU, BOTTOM_MENU } from "@/mocks/sideBarMenu";
+import { SIDE_BAR_MENU, BOTTOM_MENU } from "@/static/mocks/sideBarMenu";
 import Icon from "@/components/atoms/Icon/Icon";
 import style from "./SideBar.module.scss";
 

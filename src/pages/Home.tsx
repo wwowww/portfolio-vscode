@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import VscodeIcon from "@/assets/icons/VscodeIcon";
+import VscodeIcon from "@/static/icons/VscodeIcon";
 import Typography from "@/components/atoms/Typography/Typography";
 import TypingText from "@/components/atoms/TypingText/TypingText";
 import HomeButton from "@/components/atoms/Button/HomeButton";

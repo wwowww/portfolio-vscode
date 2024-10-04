@@ -3,7 +3,7 @@ import SectionTitle from "@/components/molecules/SectionTitle/SectionTitle";
 import style from "@/assets/styles/Contact.module.scss";
 import CodeBlock from "@/components/atoms/CodeStyle/CodeBlock/CodeBlock";
 import CodeLine from "@/components/atoms/CodeStyle/CodeLine/CodeLine";
-import { CONTACT_INFO } from "@/mocks/contactInfo";
+import { CONTACT_INFO } from "@/static/mocks/contactInfo";
 import Typography from "@/components/atoms/Typography/Typography";
 import { EmailForm }  from "@/components/organisms/EmailForm/EmailForm";
 
@@ -13,7 +13,7 @@ const Contact = () => {
     <>
       <SectionTitle
         title="Contact Me"
-        imageSrc="/src/assets/icons/AccountIcon.svg"
+        imageSrc="/src/static/icons/AccountIcon.svg"
         className="mail"
       />
       <div className={style.code}>
@@ -33,7 +33,7 @@ const Contact = () => {
       </div>
       <SectionTitle
         title="Send Email"
-        imageSrc="/src/assets/icons/MailIcon.svg"
+        imageSrc="/src/static/icons/MailIcon.svg"
         className="mail"
       />
       <Typography className="body-14-150-400" color="#A2A2A2">메일을 보내주시면 평일 기준 3일 이내로 답장 드리겠습니다!</Typography>

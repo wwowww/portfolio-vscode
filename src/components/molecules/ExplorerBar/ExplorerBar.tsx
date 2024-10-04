@@ -1,4 +1,4 @@
-import { EXPLORER_BAR_MENU } from "@/mocks/explorerBarMenu";
+import { EXPLORER_BAR_MENU } from "@/static/mocks/explorerBarMenu";
 import Tab from "@/components/atoms/Tab/Tab";
 import style from "./ExplorerBar.module.scss";
 import { useState } from "react";

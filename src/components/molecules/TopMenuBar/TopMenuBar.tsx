@@ -1,5 +1,5 @@
-import VscodeIcon from '@/assets/icons/VscodeIcon';
-import { TOP_MENU_LIST } from '@/mocks/topMenuList';
+import VscodeIcon from '@/static/icons/VscodeIcon';
+import { TOP_MENU_LIST } from '@/static/mocks/topMenuList';
 import Typography from '@/components/atoms/Typography/Typography';
 import Circle from '@/components/atoms/Circle/Circle';
 import style from "./TopMenuBar.module.scss";

@@ -1,10 +1,10 @@
-import FilesIcon from '@/assets/icons/FilesIcon.svg';
-import CodeIcon from '@/assets/icons/CodeIcon.svg';
-import PencilIcon from '@/assets/icons/PencilIcon.svg';
-import MailIcon from '@/assets/icons/MailIcon.svg';
-import ExtensionIcon from '@/assets/icons/ExtensionIcon.svg';
-import AccountIcon from '@/assets/icons/AccountIcon.svg';
-import SettingIcon from '@/assets/icons/SettingIcon.svg';
+import FilesIcon from '@/static/icons/FilesIcon.svg';
+import CodeIcon from '@/static/icons/CodeIcon.svg';
+import PencilIcon from '@/static/icons/PencilIcon.svg';
+import MailIcon from '@/static/icons/MailIcon.svg';
+import ExtensionIcon from '@/static/icons/ExtensionIcon.svg';
+import AccountIcon from '@/static/icons/AccountIcon.svg';
+import SettingIcon from '@/static/icons/SettingIcon.svg';
 
 export const SIDE_BAR_MENU = [
   {

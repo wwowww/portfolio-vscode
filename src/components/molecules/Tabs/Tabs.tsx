@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Tab from "@/components/atoms/Tab/Tab";
-import { TAB_LIST } from "@/mocks/tabList";
+import { TAB_LIST } from "@/static/mocks/tabList";
 import style from "./Tabs.module.scss";
 
 

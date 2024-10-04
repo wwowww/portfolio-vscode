@@ -12,7 +12,7 @@ const Projects = () => {
     <div className={style.container}>
       <SectionTitle
         title="Project List"
-        imageSrc="/src/assets/icons/CodeIcon.svg"
+        imageSrc="/src/static/icons/CodeIcon.svg"
         className="code"
       />
       {error && <p>에러가 발생했습니다! 잠시후 다시 시도해주세요.</p>}

@@ -1,9 +1,9 @@
-import SourceControlIcon from "@/assets/icons/SourceControlIcon.svg";
-import ErrorIcon from "@/assets/icons/ErrorIcon.svg";
-import WarningIcon from "@/assets/icons/WarningIcon.svg";
-import ReactIcon from "@/assets/icons/ReactIcon.svg";
-import CheckIcon from "@/assets/icons/CheckIcon.svg";
-import BellIcon from "@/assets/icons/BellIcon.svg";
+import SourceControlIcon from "@/static/icons/SourceControlIcon.svg";
+import ErrorIcon from "@/static/icons/ErrorIcon.svg";
+import WarningIcon from "@/static/icons/WarningIcon.svg";
+import ReactIcon from "@/static/icons/ReactIcon.svg";
+import CheckIcon from "@/static/icons/CheckIcon.svg";
+import BellIcon from "@/static/icons/BellIcon.svg";
 
 import style from "./Footer.module.scss";
 
