@@ -1,9 +1,9 @@
 import ReactIcon from '@/static/icons/ReactIcon.svg';
-import HtmlIcon from '/src/static/icons/HtmlIcon.svg';
-import SassIcon from 'src/static/icons/SassIcon.svg';
-import TsIcon from 'src/static/icons/TsIcon.svg';
-import JsonIcon from 'src/static/icons/JsonIcon.svg';
-import FolderIcon from 'src/static/icons/FolderIcon.svg';
+import HtmlIcon from '@/static/icons/HtmlIcon.svg';
+import SassIcon from '@/static/icons/SassIcon.svg';
+import TsIcon from '@/static/icons/TsIcon.svg';
+import JsonIcon from '@/static/icons/JsonIcon.svg';
+import FolderIcon from '@/static/icons/FolderIcon.svg';
 
 export const EXPLORER_BAR_MENU = [
   {

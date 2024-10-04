@@ -12,7 +12,7 @@ const Runner = () => {
   });
 
   return (
-    <img src={"src/static/images/run/run_" + count + ".gif"} alt="Runner eunjee." />
+    <img src={"/src/static/images/run/run_" + count + ".gif"} alt="Runner eunjee." />
   ) 
 };
   

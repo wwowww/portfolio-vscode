@@ -23,7 +23,7 @@ const Setting = () => {
       <ul className={style.listWrap}>
         {THEME_LIST.map((item) => (
           <li key={item.id + "key"} className={style.list}>
-            <img src={`src/static/images/${item.img}`} alt="" />
+            <img src={`@/static/images/${item.img}`} alt="" />
             <h3>{item.title}</h3>
             <p>{item.description}</p>
             <button
