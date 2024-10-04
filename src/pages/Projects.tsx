@@ -2,6 +2,7 @@ import ProjectList from "@/components/molecules/projectList/projectList";
 import { useAPI } from "lib/api/react-query/project";
 import SectionTitle from "@/components/molecules/SectionTitle/SectionTitle";
 import Typography from "@/components/atoms/Typography/Typography";
+import CodeIcon from "@/static/icons/CodeIcon.svg";
 
 import style from "@/assets/styles/Projects.module.scss";
 
@@ -12,7 +13,7 @@ const Projects = () => {
     <div className={style.container}>
       <SectionTitle
         title="Project List"
-        imageSrc="/src/static/icons/CodeIcon.svg"
+        imageSrc={CodeIcon}
         className="code"
       />
       {error && <p>에러가 발생했습니다! 잠시후 다시 시도해주세요.</p>}

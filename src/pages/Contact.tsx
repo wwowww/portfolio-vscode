@@ -6,14 +6,14 @@ import CodeLine from "@/components/atoms/CodeStyle/CodeLine/CodeLine";
 import { CONTACT_INFO } from "@/static/mocks/contactInfo";
 import Typography from "@/components/atoms/Typography/Typography";
 import { EmailForm }  from "@/components/organisms/EmailForm/EmailForm";
-
+import AccountIcon from "@/static/icons/AccountIcon.svg";
 const Contact = () => {
   const id = useId();
   return (
     <>
       <SectionTitle
         title="Contact Me"
-        imageSrc="/src/static/icons/AccountIcon.svg"
+        imageSrc={AccountIcon}
         className="mail"
       />
       <div className={style.code}>

@@ -1,5 +1,6 @@
 import SectionTitle from "@/components/molecules/SectionTitle/SectionTitle";
 import BlogList from "@/components/molecules/BlogList/BlogList";
+import pencilIcon from "@/static/icons/PencilIcon.svg";
 
 
 const Blog = () => {
@@ -7,7 +8,7 @@ const Blog = () => {
     <>
      <SectionTitle
         title="Recent Posts"
-        imageSrc="/src/static/icons/PencilIcon.svg"
+        imageSrc={pencilIcon}
         className="blog"
       /> 
       <BlogList />
