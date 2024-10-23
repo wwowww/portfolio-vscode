@@ -7,101 +7,101 @@
     {
       "id": 0,
       "copy": "company",
-      "title": "회사명",
-      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
+      "title": "Wempade",
+      "description": "Wemade 재직 시, 진행한 프로젝트에 대한 설명입니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
-      "notionLink": "",
-"githubLink": "",
-"demoLink": "",
+      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da80399aa2e72003f633e9",
+      "githubLink": "",
+      "demoLink": "",
       "tag": [
-        "Pnpm",
-        "Turborepo",
         "React",
         "NextJs",
-        "Redux",
+        "Zustand",
         "Typescript",
-        "SCSS",
         "moduleCSS",
-        "i18next"
+        "i18next",
+        "Turborepo",
+        "Bitbucket",
+        "Jira"
       ]
     },
     {
       "id": 1,
-      "copy": "personal",
-      "title": "프로젝트명",
-      "description": "개인 또는 팀 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
-      "notionLink": "노션링크",
-      "githubLink": "깃헙링크",
-      "demoLink": "데모링크",
+      "copy": "company",
+      "title": "ApulsX",
+      "description": "AplusX 재직 시, 진행한 프로젝트에 대한 설명입니다.",
+      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/apulsX.webp",
+      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da80269e8fe1b7e49b217c",
+      "githubLink": "",
+      "demoLink": "",
       "tag": [
-        "Vite",
-        "React",
-        "Typescript",
-        "Zustand"
+        "Liquid",
+        "Javascript",
+        "SCSS"
       ]
     },
     {
       "id": 2,
       "copy": "company",
-      "title": "회사명",
-      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
-      "notionLink": "노션링크",
+      "title": "포그리트",
+      "description": "Samsung UK의 웹 접근성 QA 업무를 진행했습니다.",
+      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/fourgrit.webp",
+      "notionLink": "https://kwoneunjee.notion.site/4f25b18ad11a4dada7359d6fef3b77c2?pvs=4",
       "githubLink": "",
       "demoLink": "",
       "tag": [
-        "Pnpm",
-        "Turborepo",
-        "React",
-        "NextJs",
-        "Redux",
-        "Typescript",
-        "SCSS",
-        "moduleCSS",
-        "i18next"
+        "웹 접근성",
+        "웹 표준"
+      ]
+    },
+    {
+      "id": 3,
+      "copy": "company",
+      "title": "윈드디자인",
+      "description": "웹 에이전시에 근무하며 진행한 프로젝트에 대한 설명입니다.",
+      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/winddesign.png",
+      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da803db7e9db43e662e6b5",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "HTML",
+        "Javascript",
+        "JQuery",
+        "CSS"
       ]
     },
     {
       "id": 4,
-      "copy": "company",
-      "title": "회사명",
-      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
-      "notionLink": "",
-      "githubLink": "깃헙링크",
-      "demoLink": "데모링크",
+      "copy": "personal",
+      "title": "음성 Ai Todo List",
+      "description": "음성 인식 기능을 갖춘 할 일 관리 애플리케이션을 개발했습니다.",
+      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/todos.png",
+      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da8054ba8ef05c51bf189e",
+      "githubLink": "https://github.com/wwowww/projects/tree/main/apps/todo-app",
+      "demoLink": "https://todo-app-chi-beryl-53.vercel.app/",
       "tag": [
-        "Pnpm",
-        "Turborepo",
         "React",
-        "NextJs",
-        "Redux",
         "Typescript",
-        "SCSS",
-        "moduleCSS",
-        "i18next"
+        "Context API",
+        "Jotai",
+        "Recoil",
+        "Redux",
+        "Zustand"
       ]
     },
     {
       "id": 5,
-      "copy": "company",
-      "title": "회사명",
-      "description": "회사에서 진행한 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
+      "copy": "personal",
+      "title": "Eunjee run",
+      "description": "뛰어가는 디자인의 슬라이드 페이지 포트폴리오",
+      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/eunjeerun.png",
       "notionLink": "",
-      "githubLink": "",
-      "demoLink": "",
+      "githubLink": "https://github.com/wwowww/eunjeerun",
+      "demoLink": "https://eunjeerun.vercel.app/",
       "tag": [
-        "Pnpm",
-        "Turborepo",
-        "React",
-        "NextJs",
-        "Redux",
         "Typescript",
-        "SCSS",
-        "moduleCSS",
-        "i18next"
+        "React",
+        "Atomic design pattern"
       ]
     }
   ]
