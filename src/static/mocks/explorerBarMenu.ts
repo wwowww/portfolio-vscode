@@ -36,10 +36,10 @@ export const EXPLORER_BAR_MENU = [
     path: '/blog',
     title: 'blog.json'
   },
-  {
-    id: 5,
-    icon: FolderIcon,
-    path: '/code-examples',
-    title: 'code-examples'
-  },
+  // {
+  //   id: 5,
+  //   icon: FolderIcon,
+  //   path: '/code-examples',
+  //   title: 'code-examples'
+  // },
 ]

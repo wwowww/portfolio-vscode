@@ -27,11 +27,11 @@ export const SIDE_BAR_MENU = [
     icon: MailIcon,
     path: "/contact",
   },
-  {
-    id: 4,
-    icon: ExtensionIcon,
-    path: "/code-examples",
-  }
+  // {
+  //   id: 4,
+  //   icon: ExtensionIcon,
+  //   path: "/code-examples",
+  // }
 ];
 
 export const BOTTOM_MENU = [
