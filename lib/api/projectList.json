@@ -73,7 +73,7 @@
     {
       "id": 4,
       "copy": "personal",
-      "title": "음성 Ai Todo List",
+      "title": "Web Speech Todo App",
       "description": "음성 인식 기능을 갖춘 할 일 관리 애플리케이션을 개발했습니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/todos.png",
       "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da8054ba8ef05c51bf189e",
