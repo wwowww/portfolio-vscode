@@ -20,12 +20,12 @@ const Projects = () => {
       <ul className={style.listWrap}>
         {isLoading && <li>Loading ...</li>}     
         {error && <li><p>에러가 발생했습니다! 잠시후 다시 시도해주세요.</p></li>}   
-        <ProjectList data={data} copy="company" />
+        <ProjectList data={data} copy="personal" />
       </ul>
       <br />
       <Typography Tag="h3" className="title-20-150-400">🪐 Personal & Team Project</Typography>
       <ul className={style.listWrap}>
-        <ProjectList data={data} copy="personal" />
+        <ProjectList data={data} copy="company" />
       </ul>
     </div>
     

@@ -19,6 +19,7 @@ const ProjectList = ({data, copy}: Props) => {
                 <h4>{item.title}</h4>
                 <p>{item.description}</p>
                 {item.notionLink.length !== 0 && <a href={item.notionLink} target="_blank" className={style.notion}>프로젝트 상세</a>}
+                {item.notionLink.length !== 0 && <a href={item.projectLink} target="_blank" className={style.notion}>프로젝트 기술서</a>}
                 <div className={style.githubDemoTagWrap}>
                   {item.githubLink.length !== 0 && <a href={item.githubLink} target="_blank" className={style.github}>Github</a>}
                   {item.demoLink.length !== 0 && <a href={item.demoLink} target="_blank" className={style.demo}>Demo</a>}
