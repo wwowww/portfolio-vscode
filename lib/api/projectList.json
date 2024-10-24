@@ -11,7 +11,7 @@
       "description": "Wemade 재직 시, 진행한 프로젝트에 대한 설명입니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
       "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da80399aa2e72003f633e9",
-      "projectDLink": "",
+      "projectLink": "",
       "githubLink": "",
       "demoLink": "",
       "tag": [
@@ -33,7 +33,7 @@
       "description": "AplusX 재직 시, 진행한 프로젝트에 대한 설명입니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/aplusx.webp",
       "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da80269e8fe1b7e49b217c",
-      "projectDLink": "",
+      "projectLink": "",
       "githubLink": "",
       "demoLink": "",
       "tag": [
@@ -49,7 +49,7 @@
       "description": "Samsung UK의 웹 접근성 QA 업무를 진행했습니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/fourgrit.webp",
       "notionLink": "https://kwoneunjee.notion.site/4f25b18ad11a4dada7359d6fef3b77c2?pvs=4",
-      "projectDLink": "",
+      "projectLink": "",
       "githubLink": "",
       "demoLink": "",
       "tag": [
@@ -64,7 +64,7 @@
       "description": "웹 에이전시에 근무하며 진행한 프로젝트에 대한 설명입니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/winddesign.webp",
       "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da803db7e9db43e662e6b5",
-      "projectDLink": "",
+      "projectLink": "",
       "githubLink": "",
       "demoLink": "",
       "tag": [
@@ -81,7 +81,7 @@
       "description": "음성 인식 기능을 갖춘 할 일 관리 애플리케이션을 개발했습니다.",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/todos.png",
       "notionLink": "",
-      "projectDLink": "https://kwoneunjee.notion.site/Toy-project-Web-speech-Todo-App-128b6a7ed2da80059bc6e644873d29c6",
+      "projectLink": "https://kwoneunjee.notion.site/Toy-project-Web-speech-Todo-App-128b6a7ed2da80059bc6e644873d29c6",
       "githubLink": "https://github.com/wwowww/projects/tree/main/apps/todo-app",
       "demoLink": "https://todo-app-chi-beryl-53.vercel.app/",
       "tag": [
@@ -101,7 +101,7 @@
       "description": "뛰어가는 디자인의 슬라이드 페이지 포트폴리오",
       "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/eunjeerun.png",
       "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da809f8e22e1b4ccf1c6aa",
-      "projectDLink": "",
+      "projectLink": "",
       "githubLink": "https://github.com/wwowww/eunjeerun",
       "demoLink": "https://eunjeerun.vercel.app/",
       "tag": [
