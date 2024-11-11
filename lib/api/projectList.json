@@ -1,27 +1,26 @@
 {
   "product": "Eunjee Portfolio Project JSON",
-  "version": "1.0",
-  "releaseDate": "2024-09-13T00:00:00.000Z",
+  "version": "1.1",
+  "releaseDate": "2024-11-11T00:00:00.000Z",
   "demo": true,
   "data": [
     {
       "id": 0,
       "copy": "company",
-      "title": "Wempade",
-      "description": "Wemade 재직 시, 진행한 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/wemade.png",
-      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da80399aa2e72003f633e9",
+      "title": "Wepublic",
+      "description": "블록체인 기반 소셜 플랫폼 개편, 사전예약 페이지 개발",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F48918edf-38ac-474d-9c45-5dee310a9321%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_3.53.50.png?table=block&id=136b6a7e-d2da-8097-adbc-cae576d50330&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Wepublic-136b6a7ed2da8097adbccae576d50330?pvs=4",
       "projectLink": "",
       "githubLink": "",
       "demoLink": "",
       "tag": [
-        "React",
-        "NextJs",
-        "Zustand",
+        "NextJS",
         "Typescript",
         "moduleCSS",
-        "i18next",
+        "React Query",
         "Turborepo",
+        "Storybook",
         "Bitbucket",
         "Jira"
       ]
@@ -29,61 +28,150 @@
     {
       "id": 1,
       "copy": "company",
-      "title": "ApulsX",
+      "title": "Nile",
+      "description": "NFT 거래소 Nile 홈페이지 오픈, 개편, CMS 작업, 컴포넌트 작업, 어드민 페이지 작업",
+      "image": "https://img.notionusercontent.com/s3/prod-files-secure%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F3bd4cf80-fa15-412a-a3f6-02c8e65103e5%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-11-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.57.13.png/size/w=2000?exp=1731408186&sig=5DE3pDUTnbHETf5uxmn2pP6SwzsiLx02lCmdgi39h8I",
+      "notionLink": "https://kwoneunjee.notion.site/NFT-Nile-137b6a7ed2da80cf8b5eec7764a0777b?pvs=4",
+      "projectLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "NextJS",
+        "Zustand",
+        "Typescript",
+        "moduleCSS",
+        "Turborepo",
+        "Bitbucket",
+        "Jira"
+      ]
+    },
+    {
+      "id": 2,
+      "copy": "company",
+      "title": "Xdraco",
       "description": "AplusX 재직 시, 진행한 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/aplusx.webp",
-      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da80269e8fe1b7e49b217c",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F82e3b328-0230-447c-aed3-70597ce9c9bb%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_3.58.11.png?table=block&id=137b6a7e-d2da-802c-a989-d3035b61dfd8&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/NFT-Xdraco-NFT-137b6a7ed2da802ca989d3035b61dfd8?pvs=4",
+      "projectLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "Vue",
+        "NuxtJS",
+        "Pinia",
+        "Vuetify"
+      ]
+    },
+    {
+      "id": 3,
+      "copy": "company",
+      "title": "Pulsar",
+      "description": "Samsung UK의 웹 접근성 QA 업무를 진행했습니다.",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F7632d527-9673-45e2-b9ef-827cb15928c0%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.01.00.png?table=block&id=137b6a7e-d2da-80dd-b9d4-fd913ec07c18&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Pulsar-137b6a7ed2da80ddb9d4fd913ec07c18?pvs=4",
       "projectLink": "",
       "githubLink": "",
       "demoLink": "",
       "tag": [
         "Liquid",
         "Javascript",
-        "SCSS"
-      ]
-    },
-    {
-      "id": 2,
-      "copy": "company",
-      "title": "포그리트",
-      "description": "Samsung UK의 웹 접근성 QA 업무를 진행했습니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/fourgrit.webp",
-      "notionLink": "https://kwoneunjee.notion.site/4f25b18ad11a4dada7359d6fef3b77c2?pvs=4",
-      "projectLink": "",
-      "githubLink": "",
-      "demoLink": "",
-      "tag": [
-        "웹 접근성",
-        "웹 표준"
-      ]
-    },
-    {
-      "id": 3,
-      "copy": "company",
-      "title": "윈드디자인",
-      "description": "웹 에이전시에 근무하며 진행한 프로젝트에 대한 설명입니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/winddesign.webp",
-      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da803db7e9db43e662e6b5",
-      "projectLink": "",
-      "githubLink": "",
-      "demoLink": "",
-      "tag": [
-        "HTML",
-        "Javascript",
-        "JQuery",
-        "CSS"
+        "Scss"
       ]
     },
     {
       "id": 4,
+      "copy": "company",
+      "title": "Pulsar Support",
+      "description": "웹 에이전시에 근무하며 진행한 프로젝트에 대한 설명입니다.",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2Ff0aa6a40-9426-439c-9132-7d06aea3c570%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.00.49.png?table=block&id=137b6a7e-d2da-80ea-8f58-c9a6f76b154b&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Support-Page-137b6a7ed2da80ea8f58c9a6f76b154b?pvs=4",
+      "projectLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "Liquid",
+        "Javascript",
+        "Scss"
+      ]
+    },
+    {
+      "id": 5,
+      "copy": "company",
+      "title": "웹접근성 QA",
+      "description": "Samsung UK 사이트 웹 접근성 QA 업무",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F97ff3de4-2590-43e5-879c-10232acbc7c3%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.02.24.png?table=block&id=137b6a7e-d2da-8035-8edc-c5720084dcb2&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Samsung-UK-QA-137b6a7ed2da80358edcc5720084dcb2?pvs=4",
+      "projectLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "Liquid",
+        "Javascript",
+        "Scss"
+      ]
+    },
+    {
+      "id": 6,
+      "copy": "company",
+      "title": "DARAE",
+      "description": "DARAE 페이지 단독 퍼블리싱, 인터렉션, 반응형 작업",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F92b72d09-b0a0-4ee5-9c6c-357805d6d409%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.08.12.png?table=block&id=137b6a7e-d2da-80ee-afa4-fe32dbb84f2d&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/DARAE-137b6a7ed2da80eeafa4fe32dbb84f2d?pvs=4",
+      "projectLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "JQuery",
+        "Javascript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 7,
+      "copy": "company",
+      "title": "Solity",
+      "description": "Solity 페이지 퍼블리싱, 인터렉션, 반응형 작업",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F123dbe73-06d2-47f3-bcde-98eb34d98ec4%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.05.09.png?table=block&id=137b6a7e-d2da-80ff-aa69-c5b86d073120&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Solity-137b6a7ed2da80ffaa69c5b86d073120?pvs=4",
+      "projectLink": "",
+      "githubLink": "",
+      "demoLink": "",
+      "tag": [
+        "JQuery",
+        "Javascript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "id": 8,
       "copy": "personal",
-      "title": "Web Speech Todo App",
-      "description": "음성 인식 기능을 갖춘 할 일 관리 애플리케이션을 개발했습니다.",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/todos.png",
-      "notionLink": "",
-      "projectLink": "https://kwoneunjee.notion.site/Toy-project-Web-speech-Todo-App-128b6a7ed2da80059bc6e644873d29c6",
-      "githubLink": "https://github.com/wwowww/projects/tree/main/apps/todo-app",
-      "demoLink": "https://todo-app-chi-beryl-53.vercel.app/",
+      "title": "Eunjee Run",
+      "description": "달리는 은지 단독 디자인, 기획, 개발",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F75336571-e8e2-443f-92ee-1529a5f79522%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.13.50.png?table=block&id=6315c3cd-5367-49cb-af6c-c8d09930ecb5&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Eunjee-Run-6315c3cd536749cbaf6cc8d09930ecb5?pvs=4",
+      "projectLink": "",
+      "githubLink": "https://github.com/wwowww/eunjeerun",
+      "demoLink": "https://eunjeerun.vercel.app",
+      "tag": [
+        "React",
+        "Typescript",
+        "Vite",
+        "SCSS",
+        "Atomic design pattern"
+      ]
+    },
+    {
+      "id": 9,
+      "copy": "personal",
+      "title": "Web Speech Todo List",
+      "description": "웹 스피치 기능이 있는 Todo List, 다양한 상태라이브러리를 활용해 각각 LocalStorage에 저장한 프로젝트",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F069f3e50-97a3-4df5-b7f6-e0d76811be00%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.12.11.png?table=block&id=4a1b7ec0-63b9-4cdd-9e88-0d62f92bcde3&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/Web-Speech-Todo-List-4a1b7ec063b94cdd9e880d62f92bcde3?pvs=4",
+      "projectLink": "",
+      "githubLink": "https://github.com/wwowww/eunjeerun",
+      "demoLink": "https://eunjeerun.vercel.app/",
       "tag": [
         "React",
         "Typescript",
@@ -95,19 +183,21 @@
       ]
     },
     {
-      "id": 5,
+      "id": 10,
       "copy": "personal",
-      "title": "Eunjee run",
-      "description": "뛰어가는 디자인의 슬라이드 페이지 포트폴리오",
-      "image": "https://raw.githubusercontent.com/wwowww/portfolio-vscode/refs/heads/main/src/static/images/eunjeerun.png",
-      "notionLink": "https://www.notion.so/kwoneunjee/121b6a7ed2da8067a5cadff36d7d1f79?pvs=4#127b6a7ed2da809f8e22e1b4ccf1c6aa",
+      "title": "VS code style 디자인 포트폴리오",
+      "description": "웹 스피치 기능이 있는 Todo List, 다양한 상태라이브러리를 활용해 각각 LocalStorage에 저장한 프로젝트",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcf99ef79-8cd5-4ba7-a4bb-32555a37ce76%2F1eeeb2f3-e756-43f6-b970-1536fbfcb1ea%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-11-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.15.18.png?table=block&id=e14b5002-0f70-4031-ac39-beeac71ee178&spaceId=cf99ef79-8cd5-4ba7-a4bb-32555a37ce76&width=2000&userId=c064fe60-398f-4f9a-a614-6d6f4e1f776f&cache=v2",
+      "notionLink": "https://kwoneunjee.notion.site/VS-code-style-e14b50020f704031ac39beeac71ee178?pvs=4",
       "projectLink": "",
-      "githubLink": "https://github.com/wwowww/eunjeerun",
-      "demoLink": "https://eunjeerun.vercel.app/",
+      "githubLink": "https://github.com/wwowww/portfolio-vscode",
+      "demoLink": "https://portfolio-vscode-nu.vercel.app",
       "tag": [
-        "Typescript",
         "React",
-        "Atomic design pattern"
+        "Typescript",
+        "React Query",
+        "Vite",
+        "SCSS"
       ]
     }
   ]
