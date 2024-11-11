@@ -1,4 +1,6 @@
 .wrap {
+  display: flex;
+
   &::before {
     margin-right: 1rem;
     min-width: 26px;
@@ -43,6 +45,36 @@
     }
   }
 
+  strong {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 3px 12px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+
+  ol {
+    li {
+      color: var(--accent-color);
+      text-decoration: underline;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      a {
+        color: var(--accent-color);
+        
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+
   .normal {
     color: #fff;
   }
@@ -60,6 +92,7 @@
     }
     &-6 {
       margin-left: 72px;
+      display: block;
     }
   }
 
